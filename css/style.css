@@ -328,11 +328,12 @@ body {
 		display: block;
 	}
 	#link ul li a {
-		font-size: 30px;
+		font-size: 15px;
 	}
 	#link h4 {
 		padding-bottom: 10px;
 		padding-top: 20px;
+		font-size: 25px;
 	}
 	#form {
 		display: none;
