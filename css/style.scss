@@ -431,3 +431,9 @@ body {
     padding: 0px 3px;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  #meni ul li a {
+    font-size: 12px;
+  }
+}
