@@ -335,7 +335,7 @@ body {
 		padding-top: 20px;
 	}
 }
-@media only screen and (max-width: 450px)  {
+@media only screen and (max-width: 460px)  {
 	#meni ul li a {
 		font-size: 15px;
 		padding: 0 5px;
