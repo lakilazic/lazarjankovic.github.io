@@ -307,8 +307,6 @@ body {
 	}
 }
 @media only screen and (max-width: 650px) {
-	#header {
-	}
 	#naslov {
 		width: 300px;
 	}
@@ -335,5 +333,14 @@ body {
 	#link h4 {
 		padding-bottom: 10px;
 		padding-top: 20px;
+	}
+}
+@media only screen and (max-width: 450px)  {
+	#meni ul li a {
+		font-size: 15px;
+		padding: 0 5px;
+	}
+	#form {
+		width: 100%;
 	}
 }
