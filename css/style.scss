@@ -383,8 +383,6 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-  #header {}
-
   #naslov {
     width: 300px;
 
@@ -413,12 +411,29 @@ body {
 
   #link {
     ul li a {
-      font-size: 30px;
+      font-size: 15px;
     }
 
     h4 {
       padding-bottom: 10px;
       padding-top: 20px;
+      font-size: 25px;
     }
+  }
+
+  #form {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #meni ul li {
+    padding: 0px 3px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #meni ul li a {
+    font-size: 10px;
   }
 }
