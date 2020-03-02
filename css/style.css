@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+	font-family: 'Teko';
+	text-decoration: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	letter-spacing: 1px;
+}
+.otransition {
+  transition: .3s ease-out;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(107, 107, 107, 0.9);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+}
+#logo {
+	width: 100px;
+	height: 100px;
+}
+#logo img {
+	width: 100%;
+}
+#meni ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+#meni ul li {
+	padding: 0px 30px;
+}
+#meni ul li a {
+	color: rgba(0, 0, 0);
+	padding: 0px 5px;
+	font-size: 30px;
+	text-align: center;
+}
+#meni ul li a:hover {
+	color: rgba(255,255,255);
+}
+#mreze {
+	display: flex;
+	justify-content: space-around;
+}
+#mreze a {
+	color: rgba(0, 0, 0);
+	padding: 0px 10px;
+	font-size: 30px;
+	text-align: center;
+}
+#mreze a:hover {
+	color: rgba(255,255,255);
+}
+#slider {
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/poz.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	box-shadow: 0px 2px 15px;
+}
+#naslov {
+	width: 700px;
+	padding-top: 180px;
+}
+#naslov h1 {
+	font-size: 100px;
+	padding: 50px 20px;
+	color: rgba(255,255,255);
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 3px solid rgba(0, 0, 0);
+}
+#more {
+	margin-top: 120px;
+	width: 300px;
+}
+#more a {
+	font-size: 30px;
+	padding: 20px 10px;
+	color: rgba(255,255,255);
+	border: 3px solid rgba(255,255,255);
+}
+#more a:hover{
+	color: rgba(0, 0, 0);
+	background-color: rgba(255,255,255);
+}
+.naslovi {
+	width: 100%;
+	margin-top: 40px;
+}
+.naslovi h2 {
+	font-size: 50px;
+	text-align: center;
+	color: rgba(0, 0, 0);
+}
+.razmak {
+	width: 50%;
+	border-bottom: 3px solid rgba(0, 0, 0);
+	margin-bottom: 40px;
+}
+#about {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255, 255, 255);
+	border: 5px solid rgba(0, 0, 0);
+	padding: 10px;
+}
+#aboutS {
+	width: 40%;
+}
+#aboutS img {
+	width: 100%;
+}
+#aboutT {
+	width: 55%;
+}
+#aboutT h3 {
+	font-size: 40px;
+	color: rgba(0, 0, 0);
+	text-align: center;
+}
+#aboutT p {
+	font-size: 25px;
+	padding: 15px 0px;
+	color: rgba(0, 0, 0);
+	text-align: justify;
+}
+#skills {
+	width: 100%;
+	display: flex;
+}
+.skill {
+	width: 15%;
+}
+.skill img{
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+.skill p {
+	font-size: 20px;
+	text-align: center;
+}
+#projects {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+.project {
+	width: 30%;
+}
+.project img {
+	width: 99%;
+	border: 1px solid black;
+}
+.project:hover {
+	transform: scale(1.1);
+	transition: 1s;
+	z-index: 2;
+}
+.project p {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 25px;
+	color: rgba(0, 0, 0);
+}
+#contact {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0);
+}
+#form {
+	width: 50%;
+}
+#form h4 {
+	color: rgba(255, 255, 255);
+	font-size: 35px;
+	text-align: center;
+}
+#form ul {
+	padding-top: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+#form ul li {
+	color: rgba(255,255,255);
+	text-align: left;
+	font-size: 22px;
+	padding: 10px 0px;
+}
+.klasaForm {
+	display: flex;
+	padding: 5px;
+}
+.klasaForm input {
+	font-size: 20px;
+	width: 300px;
+	height: 30px;
+	border: 2px solid rgba(107, 107, 107);
+}
+.klasaForm textarea {
+	font-size: 20px;
+	width: 300px;
+	height: 80px;
+	border: 2px solid rgba(107, 107, 107);
+	resize: none;
+}
+#dugme {
+	width: 150px;
+	cursor: pointer;
+	color: rgba(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+#dugme:hover {
+	background-color: rgba(255, 255, 255);
+}
+#link {
+	width: 50%;
+}
+#link h4 {
+	color: rgba(255, 255, 255);
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#link ul {
+	list-style-type: none;
+	display: flex;
+}
+#link ul li a {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 50px;
+}
+#link ul li a:hover {
+	color: rgba(255, 255, 255);
+}
+#footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0);
+	padding-top: 30px;
+}
+#footer p {
+	color: rgba(255, 255, 255);
+	font-size: 30px;
+	text-align: center;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 920px) {
+	#mreze {
+		display: none;
+	}
+	#naslov {
+		width: 500px;
+	}
+	#naslov h1 {
+		font-size: 80px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#meni ul li a {
+		font-size: 20px;
+	}
+	#header {
+		height: 70px;
+	}
+	#logo {
+		width: 70px;
+		height: 70px;
+	}
+	#naslov {
+		width: 500px;
+	}
+	#naslov h1 {
+		font-size: 80px;
+	}
+	#skills {
+		display: block;
+	}
+	.skill {
+		width: 50%;
+		margin-top: 20px;
+	}
+	#contact {
+		display: block;
+	}
+	#form {
+		width: 80%;
+	}
+	#link h4 {
+		padding-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	#header {
+	}
+	#naslov {
+		width: 300px;
+	}
+	#naslov h1 {
+		font-size: 60px;
+	}
+	#meni ul li {
+	padding: 0px 10px;
+	}
+	#projects {
+		display: block;
+	}
+	.project {
+		width: 70%;
+		padding-top: 20px;
+	}
+	#about {
+		width: 75%;
+		display: block;
+	}
+	#link ul li a {
+		font-size: 30px;
+	}
+	#link h4 {
+		padding-bottom: 10px;
+		padding-top: 20px;
+	}
+}

@@ -1,0 +1,424 @@
+&black: rgba(0, 0, 0);
+&white: rgba(255, 255, 255);
+&grey: rgba(107, 107, 107);
+&grey09: rgba(107, 107, 107, 0.9);
+&black03: rgba(0, 0, 0, 0.3);
+&white08: rgba(255, 255, 255, 0.8);
+&white07: rgba(255, 255, 255, 0.7);
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+* {
+  margin: 0px auto;
+  padding: 0px auto;
+  font-family: &myfont;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  letter-spacing: 1px;
+}
+
+.otransition {
+  transition: .3s ease-out;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: &grey09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+#meni ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+  li {
+    padding: 0px 30px;
+
+    a {
+      color: &black;
+      padding: 0px 5px;
+      font-size: 30px;
+      text-align: center;
+
+      &:hover {
+        color: &white;
+      }
+    }
+  }
+}
+
+#mreze {
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    color: &black;
+    padding: 0px 10px;
+    font-size: 30px;
+    text-align: center;
+
+    &:hover {
+      color: &white;
+    }
+  }
+}
+
+#slider {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/poz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  box-shadow: 0px 2px 15px;
+}
+
+#naslov {
+  width: 700px;
+  padding-top: 180px;
+
+  h1 {
+    font-size: 100px;
+    padding: 50px 20px;
+    color: &white;
+    background-color: &black03;
+    border: 3px solid &black;
+  }
+}
+
+#more {
+  margin-top: 120px;
+  width: 300px;
+
+  a {
+    font-size: 30px;
+    padding: 20px 10px;
+    color: &white;
+    border: 3px solid &white;
+
+    &:hover {
+      color: &black;
+      background-color: &white;
+    }
+  }
+}
+
+.naslovi {
+  width: 100%;
+  margin-top: 40px;
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    color: &black;
+  }
+}
+
+.razmak {
+  width: 50%;
+  border-bottom: 3px solid &black;
+  margin-bottom: 40px;
+}
+
+#about {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: &white;
+  border: 5px solid &black;
+  padding: 10px;
+}
+
+#aboutS {
+  width: 40%;
+  box-shadow: 0px 2px 15px;
+
+  img {
+    width: 100%;
+  }
+}
+
+#aboutT {
+  width: 55%;
+
+  h3 {
+    font-size: 40px;
+    color: &black;
+    text-align: center;
+  }
+
+  p {
+    font-size: 25px;
+    padding: 15px 0px;
+    color: &black;
+    text-align: justify;
+  }
+}
+
+#skills {
+  width: 100%;
+  display: flex;
+}
+
+.skill {
+  width: 15%;
+
+  img {
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+#projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.project {
+  width: 30%;
+
+  img {
+    width: 99%;
+    border: 1px solid black;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 2;
+  }
+
+  p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: &black;
+  }
+}
+
+#contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: &black;
+}
+
+#form {
+  width: 50%;
+
+  h4 {
+    color: &white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  ul {
+    padding-top: 10px;
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      color: &white;
+      text-align: left;
+      font-size: 22px;
+      padding: 10px 0px;
+    }
+  }
+}
+
+.klasaForm {
+  display: flex;
+  padding: 5px;
+
+  input {
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid &grey;
+  }
+
+  textarea {
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+    border: 2px solid &grey;
+    resize: none;
+  }
+}
+
+#dugme {
+  width: 150px;
+  cursor: pointer;
+  color: &white;
+  background-color: &white08;
+
+  &:hover {
+    background-color: &white;
+  }
+}
+
+#link {
+  width: 50%;
+
+  h4 {
+    color: &white;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li a {
+      color: &white07;
+      font-size: 50px;
+
+      &:hover {
+        color: &white;
+      }
+    }
+  }
+}
+
+#footer {
+  width: 100%;
+  background-color: &black;
+  padding-top: 30px;
+
+  p {
+    color: &white;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 920px) {
+  #mreze {
+    display: none;
+  }
+
+  #naslov {
+    width: 500px;
+
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #meni ul li a {
+    font-size: 20px;
+  }
+
+  #header {
+    height: 70px;
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  #naslov {
+    width: 500px;
+
+    h1 {
+      font-size: 80px;
+    }
+  }
+
+  #skills {
+    display: block;
+  }
+
+  .skill {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  #form {
+    width: 80%;
+  }
+
+  #link h4 {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #header {}
+
+  #naslov {
+    width: 300px;
+
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+  #meni ul li {
+    padding: 0px 10px;
+  }
+
+  #projects {
+    display: block;
+  }
+
+  .project {
+    width: 70%;
+    padding-top: 20px;
+  }
+
+  #about {
+    width: 75%;
+    display: block;
+  }
+
+  #link {
+    ul li a {
+      font-size: 30px;
+    }
+
+    h4 {
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+  }
+}
