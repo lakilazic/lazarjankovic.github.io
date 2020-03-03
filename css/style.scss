@@ -409,26 +409,25 @@ body {
     display: block;
   }
 
-  #link {
-    ul li a {
-      font-size: 15px;
-    }
-
-    h4 {
-      padding-bottom: 10px;
-      padding-top: 20px;
-      font-size: 25px;
-    }
-  }
-
-  #form {
-    display: none;
+  #link h4 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   #meni ul li {
     padding: 0px 3px;
+  }
+
+  #form ul li {
+    font-size: 12px;
+  }
+
+  #link ul li a {
+    font-size: 35px;
+    padding: 0px 5px;
   }
 }
 

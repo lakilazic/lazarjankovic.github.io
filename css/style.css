@@ -340,6 +340,10 @@ body {
 	#form ul li {
 		font-size: 12px;
 	}
+	#link ul li a{
+		font-size: 35px;
+		padding: 0px 5px;
+	}
 }
 @media only screen and (max-width: 420px)  {
 	#meni ul li a {
