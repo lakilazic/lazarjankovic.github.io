@@ -335,13 +335,13 @@ body {
 		padding-top: 20px;
 		font-size: 25px;
 	}
-	#form {
-		display: none;
-	}
 }
 @media only screen and (max-width: 480px)  {
 	#meni ul li {
 		padding: 0px 3px;
+	}
+	#form ul li {
+		font-size: 12px;
 	}
 }
 @media only screen and (max-width: 420px)  {
